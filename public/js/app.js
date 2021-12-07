@@ -227,6 +227,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mode: 'history',
+  linkActiveClass: 'font-bold',
   routes: [{
     path: '/',
     component: _components_Logo__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -248,7 +249,7 @@ __webpack_require__.r(__webpack_exports__);
     path: '/illustrations',
     component: _components_Illustrations__WEBPACK_IMPORTED_MODULE_5__["default"]
   }, {
-    path: '/loaders',
+    path: '/loaders-and-animations',
     component: _components_LoadersAndAnimations__WEBPACK_IMPORTED_MODULE_6__["default"]
   }, {
     path: '/wallpapers',

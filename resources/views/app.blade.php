@@ -24,7 +24,7 @@
                     <section class="mb-8">
                         <h5 class="uppercase font-bold mb-4">The Brand</h5>
                         <ul>
-                            <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/">Logo</router-link></li>
+                            <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/" exact>Logo</router-link></li>
                             <li class=" text-sm leading-loose"><router-link  class=" text-black" :to="{name:'logo-symbol'}">Logo Symbol</router-link></li>
                             <li class=" text-sm leading-loose"><router-link  class=" text-black" to="/colors">Colors</router-link></li>
                             <li class=" text-sm leading-loose"><router-link  class=" text-black" :to="{name:'typography'}">Typography</router-link></li>
@@ -36,7 +36,7 @@
                         <ul>
                             <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/mascot">Mascot</router-link></li>
                             <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/illustrations">Illustrations</router-link></li>
-                            <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/loaders">Loaders & Animations</router-link></li>
+                            <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/loaders-and-animations">Loaders & Animations</router-link></li>
                             <li class=" text-sm leading-loose"> <router-link class=" text-black"  to="/wallpapers">Wallpapers</router-link></li>
                         </ul>
                     </section>

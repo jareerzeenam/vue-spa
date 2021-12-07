@@ -10,6 +10,8 @@ import Wallpapers from './components/Wallpapers';
 export default {
     mode: 'history',
 
+    linkActiveClass: 'font-bold',
+
     routes: [
         {
             path:'/',
@@ -38,7 +40,7 @@ export default {
             component: Illustrations,
         },
         {
-            path:'/loaders',
+            path:'/loaders-and-animations',
             component: LoadersAndAnimations,
         },
         {
