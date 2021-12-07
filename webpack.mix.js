@@ -17,7 +17,7 @@ require('laravel-mix-tailwind');
 mix.js('resources/js/app.js', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css')
-    .tailwind();
+     .tailwind();
 
 
 mix.browserSync({ proxy: process.env.APP_URL })
